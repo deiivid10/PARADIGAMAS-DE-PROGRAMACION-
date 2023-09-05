@@ -1,0 +1,102 @@
+Alumno: Garcia Vargas Juan David 
+PARADIGMAS DE PROGRAMACION 
+Matematica Algoritmica 
+ESFM-IPN
+---------------------------------------------------------------------------
+
+
+
+esc: salir de modo escritura
+R: modo escrutura reemplazando
+i: modo escritura insertando 
+x: borrado de letras
+dd: borrado de renglon
+D: borrado apartir de este punto 
+o: abrir renglon de abajo
+O: abrir renglon de arriba
+:q salir
+:wq guardar y salir 
+:w guardar 
+:q! salir sin guardaresc: salir de modo escritura
+R: modo escrutura reemplazando
+i: modo escritura insertando 
+x: borrado de letras
+dd: borrado de renglon
+D: borrado apartir de este punto 
+o: abrir renglon de abajo
+O: abrir renglon de arriba
+:q salir
+:wq guardar y salir 
+:w guardar 
+:q! salir sin guardar 
+
+--------------------------------------------------------------------------
+
+MANUAL DE UNIX
+
+ls:listado de archivos y carpetas 
+
+cd :cambio de direcctorios 
+
+cd..:bajar al directorio madre
+
+cd.:bajar al home
+
+pwd:present working directory
+
+cd/home/alumno/Documentos
+
+rm   :borrar archivos
+
+rm*.jpg
+
+rm*
+
+rm-r
+
+rmdir :borra directorios
+
+mkdir :barra de directorios
+
+ps-ef:mustra los procesos
+
+kill-9 :PID.Process ID
+
+/parabra :busca palabra
+
+n:proxima aparicion de palabra
+
+N:anterior aparicion de palabra
+
+:100 ir a la linea 100
+
+:$ ir a la ultima linea
+
+--------------------------------------------------------------------------
+
+INSTRUCTIVO DE GIT 
+
+sudo apt-get: install git
+
+sudo apt-get update:
+
+sudo apt-get upgrade:
+
+git clone (URL del repositario )
+
+git add (archivo) (para muchos archivos)
+
+git commit -m "Instructivo"
+
+git push
+
+-------------------------------------------------------------------------
+
+INSTRUCTIVOS ESPECIALES
+
+git status
+
+git config:
+1. git config --global user.name
+2. gif config --global user.email
+
