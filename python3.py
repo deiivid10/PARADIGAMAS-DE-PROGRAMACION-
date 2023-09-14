@@ -69,6 +69,12 @@ for i in range(0,10000):
     potencial.append(float(i))
 print(potencial[100])
 
+#========================================================
+#    Generar una tupla con la lista
+#========================================================
+potencial = tuple(potencial)
+print(potencial[100])
+
 
 
                                                               37,1         
