@@ -27,7 +27,7 @@ print(type(nada))
 #=============================================
 # La clase llanta
 #============================================
-clase Llnata:
+class Llanta:
    #==================================================
    # Variable cuenta es de toda la clase 
    #==================================================
@@ -123,7 +123,7 @@ class Cuadrilatero:
 
     def perimetro(mi):
         p=mi.lado1 + mi.lado2 + mi.lado3 + mi.lado4
-        print("perimetro="p)
+        print("perimetro=",p)
         return p 
 
 #=============================================
@@ -163,7 +163,7 @@ cuadrado1 = Cuadrado(5)
 #=================================================
 # Llamar al metodo perimetro de su abuelo Cuadrilatero
 #=================================================
-perimetro = cuadrado.perimetro()
+perimetro1 = cuadrado1.perimetro()
 
 #======================================
 # Llamar a su propio metodo area 
@@ -171,7 +171,7 @@ perimetro = cuadrado.perimetro()
 area1 = cuadrado1.area()
 
 print("Perimetro = ",perimetro1)
-print(Area = ",area1)
+print("Area = ",area1)
 
 #====================================================================
 # Sobre-escribir un metodo de su madre o abuela o tatarabuela...
