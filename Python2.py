@@ -10,7 +10,7 @@
 # Input permite obtener datos del usuario en prompter
 #=========================================================
 nombre = input("Dame tu nombre: ")
-int("Hola como estas",nombre)
+print("Hola como estas",nombre)
 
 #======================================================================
 # Los enteros son de precision ilimitada 
@@ -21,7 +21,7 @@ print(y)
 #==========================================
 # La función int() cambia strings y floats a enteros
 #==========================================
-número = int(input("Dame tu edad: "))
+numero = int(input("Dame tu edad: "))
 type(numero)
 
 #==========================================
