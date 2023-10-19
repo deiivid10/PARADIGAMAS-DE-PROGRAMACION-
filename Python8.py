@@ -172,7 +172,7 @@ area1 = cuadrado1.area()
 
 print("Perimetro = ",perimetro1)
 print("Area = ",area1)
-
+  
 #====================================================================
 # Sobre-escribir un metodo de su madre o abuela o tatarabuela...
 # Es volver a definir una funcion ya existente
