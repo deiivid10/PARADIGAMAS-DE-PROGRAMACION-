@@ -20,7 +20,7 @@ def calcularpi_kernel(rng_states, iteraciones, out):
     # Calcular pi dibujando puntos (x, y) al azar y encontrando
     # la fraccion de ellos que cae dentro del circulo unitario
     #=====================================================================
-    cae_dentro = 0
+    cae_adentro = 0
     for i in range(iteraciones):
         # Pares al azar diferentes en (-1,1) para cada proceso ii
         x = xoroshiro128p_uniform_float64(rng_states, ii)
