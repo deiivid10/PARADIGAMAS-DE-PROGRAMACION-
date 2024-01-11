@@ -25,7 +25,7 @@ n = np.array([512,512],dtype=np.int64)
 # Tamaño del dominio (menor que uno)
 L = np.array([1.0,1.0],dtype=np.float64)
 #Constante de difusion
-kd:float54 = 0.2
+kd:float64 = 0.2
 # Pasos de tiempo
 pasos:int = 100000
 #------------------------------------------------------
