@@ -35,7 +35,7 @@ if __name__ == "__main__":
    print("Procesadores = ",cpus)
    # Valor compartido 
    resultado = Value('i',0)
-   procesos= []
+   procesos = []
    for i in range(cpus):
       print("registrando el proceso %d" % i)
       procesos.append(Process(target=montecarlo,args=(N,resultado,lock)))
@@ -46,4 +46,4 @@ if __name__ == "__main__":
 
    print("Numero de tiros = ",cpus*N)
    print("Numero de aciertos ", resultado.value)
-   print("Aproximacion de pi = ", 4*float(resultado.value)/(cpus*N)
+   print("Aproximacion de pi = ", 4*float(resultado.value)/(cpus*N))
